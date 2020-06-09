@@ -11,7 +11,7 @@ class SE3Control(object):
         This is the constructor for the SE3Control object. You may instead
         initialize any parameters, control gain values, or private state here.
 
-        For grading purposes the controller is always initialized with one input
+        Controller is always initialized with one input
         argument: the quadrotor's physical parameters. If you add any additional
         input arguments for testing purposes, you must provide good default
         values!
@@ -82,8 +82,8 @@ class SE3Control(object):
         cmd_thrust = 0
         cmd_moment = np.zeros((3,))
         cmd_q = np.zeros((4,))
-
-        # STUDENT CODE HERE
+        
+        
         # convert quaternion to rotation matrix
         R = Rotation.from_quat(state['q']).as_matrix()
 
