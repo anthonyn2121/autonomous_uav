@@ -7,5 +7,4 @@ A project based on three phases:
 - Incorporating the last 2 phases together and developing a trajectory controller to autonomously control a quadrotor to fly from a starting node to goal node 
 
 # Outcome 
-![alt text](https://github.com/anthonyn2121/autonomous_uav/blob/master/media/test_maze.png)
-![alt text](https://github.com/anthonyn2121/autonomous_uav/blob/master/media/test_over_under.png)
+![alt text](https://github.com/anthonyn2121/autonomous_uav/blob/master/media/test_maze.png) ![alt text](https://github.com/anthonyn2121/autonomous_uav/blob/master/media/test_over_under.png)
