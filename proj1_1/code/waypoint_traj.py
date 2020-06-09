@@ -20,7 +20,7 @@ class WaypointTraj(object):
             points, (N, 3) array of N waypoint coordinates in 3D
         """
 
-        # STUDENT CODE HERE
+        
         self.v = 2 #m/s
         self.points = points
         self.t = np.zeros(len(points),)
@@ -64,7 +64,7 @@ class WaypointTraj(object):
         yaw = 0
         yaw_dot = 0
 
-        # STUDENT CODE HERE
+        
         if np.shape(self.points) == (3,) or np.shape(self.points) == (1,3):
             x = np.reshape(self.points,(3,))
         elif np.shape(self.points) != (3,) or np.shape(self.points) != (1,3):
